@@ -1,0 +1,12 @@
+Package: TWUtils
+Type: Package
+Title: Utility Functions Used by Taylor
+Version: 0.0.1
+Author: Taylor Wood
+Maintainer: Taylor Wood <twood886@gmail.com>
+Description: This package is a repository of functions I use as a Quant.
+License: 
+Encoding: UTF-8
+LazyData: FALSE
+Suggests: 
+RoxygenNote: 7.1.1
