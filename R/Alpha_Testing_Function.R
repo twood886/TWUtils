@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #' @title Calculate Quantiles
 #' @description Function to calculate quantiles.
 #' @details Used in Alpha Testing Functions
@@ -43,6 +44,10 @@ f_scoring<-function(data, fname, fftile){
 
 
 #' @title Alpha Testing - Single Return Horizon, Single Factor, Single Period
+=======
+#' @title Alpha Testing - Single Return Horizon, Single Factor, Single Period
+#'
+>>>>>>> 1fe3a938b2fd751077cf0e5d9cae153c87343613
 #' @description This is the most baseline AT function.
 #' @details This function returns for the universe and each quintile:
 #'      number of observations \cr
@@ -53,18 +58,35 @@ f_scoring<-function(data, fname, fftile){
 #'      information coefficient based on Z-Score of factor \cr
 #'      information coefficient based on rank of factor \cr
 #'      quintile spread between top and bottom quintile
+<<<<<<< HEAD
+=======
+#'
+>>>>>>> 1fe3a938b2fd751077cf0e5d9cae153c87343613
 #' @param data dataframe containing return column and factor value column
 #' @param fname character column name of factor
 #' @param rname character column name of return
 #' @param fftile integer number of fractiles to use in spliting data
+<<<<<<< HEAD
 #' @return None
 #' @examples
 #' AT_sr_sf_sp()
+=======
+#'
+#' @return None
+#'
+#' @examples
+#' AT_sr_sf_sp()
+#'
+>>>>>>> 1fe3a938b2fd751077cf0e5d9cae153c87343613
 #' @import tidyverse
 #' @import lubridate
 #' @import magrittr
 #' @import DescTools
 #' @import reshape2
+<<<<<<< HEAD
+=======
+#'
+>>>>>>> 1fe3a938b2fd751077cf0e5d9cae153c87343613
 #' @export
 AT_sr_sf_sp<-function(
     data,

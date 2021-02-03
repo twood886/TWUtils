@@ -34,4 +34,8 @@ This function returns for the universe and each quintile:
 }
 \examples{
 AT_sr_sf_sp()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1fe3a938b2fd751077cf0e5d9cae153c87343613
 }
