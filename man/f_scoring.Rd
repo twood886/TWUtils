@@ -4,7 +4,7 @@
 \alias{f_scoring}
 \title{Quantile & Z-Scoring}
 \usage{
-f_scoring(data, fname, fftile)
+f_scoring(data, fname, fftile, standardize = T)
 }
 \arguments{
 \item{data}{dataframe containing column with data to be scored}

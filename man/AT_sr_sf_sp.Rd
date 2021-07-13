@@ -2,9 +2,10 @@
 % Please edit documentation in R/Alpha_Testing_Function.R
 \name{AT_sr_sf_sp}
 \alias{AT_sr_sf_sp}
-\title{Alpha Testing - Single Return Horizon, Single Factor, Single Period}
+\title{Alpha Testing -
+Single Return Horizon, Single Factor, Single Period}
 \usage{
-AT_sr_sf_sp(data, fname, rname, fftile)
+AT_sr_sf_sp(data, fname, rname)
 }
 \arguments{
 \item{data}{dataframe containing return column and factor value column}
@@ -31,11 +32,4 @@ This function returns for the universe and each quintile:
      information coefficient based on Z-Score of factor \cr
      information coefficient based on rank of factor \cr
      quintile spread between top and bottom quintile
-}
-\examples{
-AT_sr_sf_sp()
-<<<<<<< HEAD
-=======
-
->>>>>>> 1fe3a938b2fd751077cf0e5d9cae153c87343613
 }

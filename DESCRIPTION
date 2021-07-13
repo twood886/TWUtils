@@ -8,5 +8,6 @@ Description: This package is a repository of functions I use as a Quant.
 License: 
 Encoding: UTF-8
 LazyData: FALSE
-Suggests: 
 RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
