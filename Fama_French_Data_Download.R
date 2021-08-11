@@ -118,7 +118,7 @@ csv.links <- kenfrench.url %>%
 
 
 #   Use Example
-#   Plot Fama-Frnech 3 Factor Model Data
+#   Plot Fama-French 3 Factor Model Data
 famafrench.data <- mapply(
   FFDataDownload,
   name = "Fama/French 3 Factors [Daily]",
